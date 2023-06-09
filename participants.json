@@ -1,13 +1,35 @@
 {
     "age": {
         "Description": "age of participant/subject",
-        "Units": "years"
+        "Units": "years",
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Age",
+                "Label": ""
+            }
+        }
     },
     "sex": {
         "Description": "sex of particpant/subject",
         "Levels": {
             "M": "male",
             "F": "female"
+        },
+        "Annotations": {
+            "IsAbout": {
+                "TermURL": "nb:Sex",
+                "Label": ""
+            },
+            "Levels": {
+                "F": {
+                    "TermURL": "snomed:248152002",
+                    "Label": ""
+                },
+                "M": {
+                    "TermURL": "snomed:248153007",
+                    "Label": ""
+                }
+            }
         }
     }
 }
